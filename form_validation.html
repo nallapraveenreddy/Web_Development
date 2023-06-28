@@ -2,10 +2,37 @@
 <HTML>
     <head>
         <title>contact details</title>
+        <script type="application/javascript">
+            function validate()
+            {
+               var name = document.getElementById("name");
+               var email = document.getElementById("email");
+               var mobile = document.getElementById("mobile");
+               if(name.value=="")
+               {
+                alert("Please enter your name!");
+                name.focus();
+                return false;
+               }
+               if(email.value=="")
+               {
+                alert("Please enter your email Address!");
+                email.focus();
+                return false;
+               }
+               if(mobile.value=="")
+               {
+                alert("PLEASE ENTER YOUR MOBILE NUMBER!");
+                mobile.focus();
+                return false;
+               }
+               return true;
+            }
+        </script>
     </head>
     <body>
         <h3>Enter your contact details.</h3>
-        <form id="form1">
+        <form id="form1" onsubmit="return validate()">
             <label for="name">Name:</label>
             <input type="text" name="Name" id="name">
             <br><br>
