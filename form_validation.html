@@ -2,7 +2,7 @@
 <HTML>
     <head>
         <title>contact details</title>
-        <script type="application/javascript">
+        <script>
             function validate()
             {
                var name = document.getElementById("name");
@@ -34,17 +34,17 @@
         <h3>Enter your contact details.</h3>
         <form id="form1" onsubmit="return validate()">
             <label for="name">Name:</label>
-            <input type="text" name="Name" id="name">
+            <input type="text" name="name" id="name">
             <br><br>
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="Email">
             <br><br>
             <label for="mobile">Mobile No:</label>
-            <input type="text" id="mobile" name="Mobile">
+            <input type="text" id="mobile" name="Mobile" maxlength="10">
             <br><br>
             <input type="submit" value="submit">
             <input type="reset" value="Reset">
-            <input type="cancel" value="cancel">
+            <input type="button" value="cancel">
         </form>
     </body>
 </html>
