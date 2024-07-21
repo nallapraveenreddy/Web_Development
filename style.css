@@ -1,0 +1,33 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+form{
+    justify-content: space-between;
+}
+.main{
+    margin:0 50px;
+    text-align: center;
+    border: 2px solid #000;
+    width: 600px;
+    color: #062e5e;  margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+}
+li{
+    list-style-type:lower-roman;
+    margin: 10px 0;
+}
+h1, .media, .date-button{
+    color: #062e5e;
+    margin-left: 20px;
+}
+.wrap{
+    display: flex;
+    justify-content:center;
+    margin: 20px 0;
+}

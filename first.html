@@ -1,13 +1,134 @@
-<html>
-    <head>
-        <title>
-            My first page
-        </title>
-        </header>
-    </head>
-    <body>
-        Hai I am Praveen.I am studying B.tech in Anurag University. This is my first html page
-        <br>
-        <a href="./second.html">Back</a>
-    </body>
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/first.html">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+        </ul>
+	</nav>
+	<header>
+		<h1>Welcome to My Website</h1>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>This is about section</p>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>This is Contact section</p>
+            <a href="https://mail.google.com/">email</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2024 copyright</p>
+	</footer>
+</body>
 </html>
+
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+a {
+    color: #718e78;
+    text-decoration: none;
+}
+header {
+	background-color: #f0f0f0;
+	padding: 1em;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+section {
+    width: 400px;
+	background-color: #fff;
+	padding: 2em;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 4px rgba(205, 205, 21, 0.1);
+}
+
+h1, h2 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+
+
+</style>
