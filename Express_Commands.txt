@@ -16,7 +16,7 @@ Packages Installation:
 After completion of installation you can use the express command to create new Express applications.
 Ex: npm install -g nodemon
 
-->nodemon: It is a tool that helps to develop Node.js based applications by automatically restarting the node application when changes in the file directory are detected.
+->nodemon : It is a tool that helps to develop Node.js based applications by automatically restarting the node application when changes in the file directory are detected.
 
 ->express: It is used to create & manage Express Applications & its dependencies.
 
