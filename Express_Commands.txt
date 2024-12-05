@@ -14,7 +14,7 @@ Packages Installation:
 
 -> npm install -g express-generator: it is used to install the express-generator globally. This command will install express-generator and its dependencies.
 After completion of installation you can use the express command to create new Express applications.
-Ex: npm install -g nodemon
+Ex: npm install -g nodemon.
 
 ->nodemon : It is a tool that helps to develop Node.js based applications by automatically restarting the node application when changes in the file directory are detected.
 
