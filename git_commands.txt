@@ -1,3 +1,6 @@
 ### Git Commands
 -- git init 
--- 
+-- git add . (Adds Etire Folder)/ git add "Filename"
+-- git commit -m "Commit message"
+-- git status (To know the changes)
+-- git log (History of commit)
