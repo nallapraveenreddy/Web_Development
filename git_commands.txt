@@ -13,3 +13,5 @@
 
 -- git status (To know the changes made)
 -- git log (History of commit)
+
+-- create .gitignore (To ignore specific files)
