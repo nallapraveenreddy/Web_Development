@@ -8,5 +8,6 @@
 -- gi checkout -b "new branch name" (To create and switch to new branch)
 -- git checkout main (To switch to main/exsting branch)
 -- git merge "Branch name" (switch to main branch and merge branch to main)
+
 -- git status (To know the changes)
 -- git log (History of commit)
