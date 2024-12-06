@@ -1,6 +1,7 @@
 ### Git Commands
 -- git init
 -- git add . (Adds Entire Folder)/ git add "Filename"
+-- git reset "File name" (revert the file to prevent from commit)
 -- git commit -m "Commit message"
 -- git push origin main
 
@@ -10,5 +11,5 @@
 -- git checkout main (To switch to main/existing branch)
 -- git merge "Branch name" (switch to main branch and merge branch to main)
 
--- git status (To know the changes)
+-- git status (To know the changes made)
 -- git log (History of commit)
