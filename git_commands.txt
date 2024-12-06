@@ -5,6 +5,8 @@
 -- git push origin main
 
 -- git branch "new branch name"
--- git checkout main (To switch to main branch)
+-- gi checkout -b "new branch name" (To create and switch to new branch)
+-- git checkout main (To switch to main/exsting branch)
+-- git merge "Branch name" (merge branch to main)
 -- git status (To know the changes)
 -- git log (History of commit)
