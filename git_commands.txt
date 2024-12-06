@@ -14,4 +14,4 @@
 -- git status (To know the changes made)
 -- git log (History of commit)
 
--- create .gitignore (To ignore specific files)
+-- create .gitignore file (To ignore specific files to be pushed into github)
